@@ -17,7 +17,7 @@ Windows Installation
 
 Open the CMD and Install from following from npm:
 
-    npm install web-terminal -g
+    npm install -g https://github.com/SRashwan/web-terminal.git
     npm install socket.io -g
     npm install commander -g
     
