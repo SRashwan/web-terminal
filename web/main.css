@@ -1,5 +1,5 @@
 body {
-    background-color: #290029;
+    background-color: #000000;
     color: #FFFFFF;
     cursor: text;
     font-family: Lucida Console,CommPlus, MS LineDraw, Telix TT Terminal,monospace;
@@ -9,7 +9,7 @@ body {
 
 .inverse {
     background-color: #FFFFFF;
-    color: #290029;
+    color: #000000;
 }
 
 #hidden-input {
