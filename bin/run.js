@@ -6,7 +6,7 @@ var commander   = require("commander"),
     terminal    = require("../"),
     pkg         = require("../package.json");
 
-if (commander.options.length === 0) {
+if (commander.Option.length === 0) {
     commander
     .version(pkg.version)
     .option("-i, --interface <ip>", "Interface (ip) to listen on.")
