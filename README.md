@@ -1,3 +1,5 @@
+![Example](https://github.com/SRashwan/web-terminal/blob/master/1.png)
+![Terminal](https://github.com/SRashwan/web-terminal/blob/master/2.png)
 Web-Terminal V2
 ============
 Web-Terminal is a very lightweight terminal server that provides remote CLI via standard web browser and HTTP protocol after bug fixes.
