@@ -99,6 +99,7 @@ License
 (MIT License)
 
 Copyright (c) 2013 Boyan Rabchev <boyan@rabchev.com>. All rights reserved.
+
 Copyright (c) 2025 Sherif Rashwan. All rights reserved.
 
 
