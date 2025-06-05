@@ -1,6 +1,6 @@
-Web-Terminal
+Web-Terminal V2
 ============
-Web-Terminal is a very lightweight terminal server that provides remote CLI via standard web browser and HTTP protocol.
+Web-Terminal is a very lightweight terminal server that provides remote CLI via standard web browser and HTTP protocol after bug fixes.
 It works on all operating systems supported by Node.js, it doesn't depend on native modules.
 Fast and easy to install. Supports mutiple sessions.
 
@@ -8,21 +8,23 @@ NOTE: It is not a TTY emulator. It doesn't support complex TTY interaction like 
 
 Prerequisites
 -------------
-Node.js v0.10 or newer.
+Node.js v20.0 or newer.
 
-Installation
+Windows Installation
 ------------
 
-Install from npm:
+Open the CMD and Install from following from npm:
 
-    $ npm install web-terminal -g
+    npm install web-terminal -g
+    npm install socket.io -g
+    npm install commander -g
     
 Usage Examples
 --------------
 
 ### Starting web-terminal:
 
-    $ web-terminal --port 8088
+    web-terminal --port 8088
 
 Open your favorite web browser, navigate to http://localhost:8088 and start playing with the browser based CLI.
 
@@ -95,6 +97,7 @@ License
 (MIT License)
 
 Copyright (c) 2013 Boyan Rabchev <boyan@rabchev.com>. All rights reserved.
+Copyright (c) 2025 Sherif Rashwan. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
